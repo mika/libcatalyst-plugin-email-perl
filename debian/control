@@ -1,0 +1,19 @@
+Source: libcatalyst-plugin-email-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: libemail-mime-perl,
+                     libemail-send-perl,
+                     perl
+Standards-Version: 3.9.5
+Homepage: https://metacpan.org/release/Catalyst-Plugin-Email
+
+Package: libcatalyst-plugin-email-perl
+Architecture: all
+Depends: libemail-mime-perl,
+         libemail-send-perl,
+         ${misc:Depends},
+         ${perl:Depends}
+Description: module to send emails with Catalyst
+ Send emails with Catalyst and Email::Send and Email::MIME::Creator.

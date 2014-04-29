@@ -1,0 +1,2 @@
+version=3
+http://search.cpan.org/CPAN/authors/id/M/MR/MRAMBERG/ Catalyst-Plugin-Email-?(\d[\d.-]*)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$
